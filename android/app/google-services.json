@@ -41,6 +41,43 @@
           ]
         }
       }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:60889075223:android:ce6af166f040084aee5652",
+        "android_client_info": {
+          "package_name": "net.softmint.onemanmerchant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "60889075223-qcksmto5vneda8pr9kpdbp36i0qu7oop.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.softmint.onemanmerchant",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "60889075223-h2vmkjnn0v39g9j7sgdmi0lv8mttpmu8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMGb2oI6Kybg3_cKouIL1GGaUxNNwr5RM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "60889075223-h2vmkjnn0v39g9j7sgdmi0lv8mttpmu8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
     }
   ],
   "configuration_version": "1"

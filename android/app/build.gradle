@@ -73,9 +73,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.merchant"
+    namespace "net.softmint.onemanmerchant"
     defaultConfig {
-        applicationId "com.merchant"
+        applicationId "net.softmint.onemanmerchant"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
@@ -121,5 +121,6 @@ dependencies {
 }
 
 apply from: file("../../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesAppBuildGradle(project)
+apply from: file("../../node_modules/react-native-vector-icons/fonts.gradle")
 apply plugin: 'com.android.application'
 apply plugin: 'com.google.gms.google-services'
